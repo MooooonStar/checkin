@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  checkin:
+    image: snoooowwhite/checkin:1.0.0
+    container_name: checkin
+    restart: always
